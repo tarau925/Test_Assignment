@@ -28,7 +28,6 @@ test cases.
 appears to rerun the failed test cases.
 
 
-Please download the excel file to run the validLoginTest
 
 
 
