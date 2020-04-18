@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignment]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test name="Add validlogin Test(failed)">
+    <classes>
+      <class name="automation.testcases.ValidLoginTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="ValidloginTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- automation.testcases.ValidLoginTest -->
+    </classes>
+  </test> <!-- Add validlogin Test(failed) -->
+</suite> <!-- Failed suite [Assignment] -->

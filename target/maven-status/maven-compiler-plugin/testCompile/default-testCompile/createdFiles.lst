@@ -1,0 +1,6 @@
+techfios\utilities\ExcelReader.class
+techfios\testcases\AddCustomerTest.class
+techfios\base\testBase.class
+techfios\rough\TestProperties.class
+techfios\testcases\BankManagerLoginTest.class
+techfios\listeners\CustomListeners.class
