@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Test_Assignment
-Test 1
-Test 2
-Test 3
-=======
 Following should be installed before running the project:
 Java JRE/JDK
 Eclipse
@@ -35,8 +29,3 @@ appears to rerun the failed test cases.
 
 
 
-
-
-
-
->>>>>>> 47d57a083147e749a3a4bb6fb370c588f27e6fb4
