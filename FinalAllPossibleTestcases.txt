@@ -1,0 +1,111 @@
+Test ID				Test Scenario					Prerequisites					Test Steps					Expected Result							Acutal Result							Test Data				Status 		Defect ID	Comments
+
+1	Verify ""SWAGLABS""Logo is displayed in the appli
+cation    Application should be installed	   "Verify whether the logo ""SWAGLABS"" is displayed
+"
+			"SWAGLABS" logo should be displayed				"SWAGLABS" logo is successfully displayed								Pass		
+													1.) Go to site: ""https://www.saucedemo.com/index.html"
+													2.) Verify ""SWAGLABS"" logo is dispayed.
+
+"
+
+2	Verify image is displayed in the application		Application should be installed		"Verify whether image is displayed 					An image should be displayed					An image is displayed											pass			
+
+													1.) Go to site: "https://www.saucedemo.com/index.html""
+													2.) Verify an image is dispayed.
+
+"
+
+3	Verify error message when trying to log in 		Application should be installed		"Verify whether the 'Username is required' message is displayed
+" 	Below message should be displayed:
+				"Epic sadface: Username is required" 									Pass		
+	without entering username and password								1.) G to site: ""https://www.saucedemo.com/index.html""
+
+			"Epic sadface: Username is required"				message is displayed
+													2.) Do not Enter Username and Password
+													
+3.) Click on ""LOGIN"" button
+"
+
+4	Verify error message when trying to 
+log 		Application should be installed		"Verify whether the 'Username is required' message is displayed
+	"
+ 	Below message should be displayed:
+				"Epic sadface: Username is required" message is displayed						Pass		
+	in without entering  username 									1.) Go to site: "https://www.saucedemo.com/index.html"
+
+  													2.) Skip the Username box and enter just password
+
+   													3.) Click on ""LOGIN"" button
+" 						"Epic sadface: Username is required"
+
+5	"Verify error message when trying to 
+sign 		Application should be installed		"Verify whether the 'Password is required' message is displayed
+
+ 	Below message should be displayed:				Epic sadface: Password is required message is displayed							Pass		
+	in without entering password"									1.) Go to site: "https://www.saucedemo.com/index.html"
+
+ 													2.) Just enter just username and skip the password box
+
+													3.) Click on ""LOGIN"" button
+"						
+"Epic sadface: Password is required"
+
+6	Verify error message when entering invalid username	Application should be installed		"Verify whether the error message is displayed
+	"
+			 Below message should be displayed:				"Epic sadface: Username and password do not match any user	"password:
+secret_sauce"			Pass		
+
+													1.) Go to site:"https://www.saucedemo.com/index.html"  "Epic sadface: Username and password do not match any user in this service   		in this service" message is displayed              
+													2.) Enter incorrect username and correct password
+
+													3.) Click on ""LOGIN"" button
+"
+
+7	Verify error message when entering invalid password	Application should be installed		"Verify whether the error message is displayed				Below message should be displayed:
+				"Epic sadface: Username and password do not match any user "Usernames:
+performance_glitch_user
+		Pass		
+
+													1.) Go to site: "https://www.saucedemo.com/index.html"
+
+ 													2.) Enter correct username and incorrect password
+         "Epic sadface: Username and password do not match any user in this service"               in this service" message is displayed              standard_user/ problem_user
+													3.) Click on ""LOGIN"" button
+"	
+
+8	"Verify error message when entering invalid 		Application should be installed		"Verify whether the following error message is displayed
+.
+ 		Below message should be displayed:
+"Epic sadface:		"Epic sadface: Username and password do not match any user 						Pass		
+	username
+and invalid password"												                                         username and password do  not match any user in this service"                        in this service"message is displayed
+
+													1.) Go to site: "https://www.saucedemo.com/index.html"
+													2.) enter incorrect username and password
+													3.) Click on "LOGIN" button
+
+9	Verify successful login to the application		Application should be installed		"Verify whether the user is successfully logged in 
+			User should be able to login					User is successfully logged in to the system		Username: standard_user/password=secret_sauce	Pass		
+
+													1.) Go to site: "https://www.saucedemo.com/index.html"
+													2.) Enter correct username and password
+													3.) Click on "LOGIN" button
+
+10	Verify error message when entering 			Application should be installed		Verify whether the following error message is displayed
+			Below message should be displayed:
+""Epic sadface:		"Epic sadface: Sorry, this user has been 	username: locked_out_user/password=secret_sauce		Pass		
+	a locked out user
+ information																			Sorry, this user has been locked out."				locked out." is displayed
+
+													1.) Go to site: "https://www.saucedemo.com/index.html"
+													2.) Enter a locked out username and password
+													3.) Click on "LOGIN" button
+
+
+
+
+
+
+
+	
